@@ -49,7 +49,8 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.15);
+    mix-blend-mode: overlay;
     z-index: 0;
     pointer-events: none
 }
@@ -60,7 +61,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: -1
+    z-index: -1;
 }
 
 @media screen and (orientation:portrait) {
@@ -91,7 +92,9 @@
 .hero__screen-1 .hero__tagline {
     color: #c1c1c1;
     font-size: 2.5rem;
-    line-height: normal
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (orientation:portrait) {
