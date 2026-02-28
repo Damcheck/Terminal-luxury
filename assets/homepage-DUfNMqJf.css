@@ -93,8 +93,6 @@
     color: #c1c1c1;
     font-size: 2.5rem;
     line-height: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (orientation:portrait) {
@@ -118,10 +116,6 @@
     overflow: hidden;
     width: fit-content;
     margin-left: -.8rem;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-stroke: 0.5px #fff;
 }
 
 @media screen and (orientation:portrait) {
@@ -209,10 +203,6 @@
     margin-left: auto;
     width: fit-content;
     margin-right: -1rem;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-stroke: 0.5px #fff;
 }
 
 @media screen and (orientation:portrait) {
@@ -576,16 +566,11 @@
     display: grid;
     overflow: hidden;
     margin-left: -1.2rem;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-stroke: 0.5px #fff;
 }
 
 .hero__screen-2 .hero__heading span {
     opacity: 0;
     visibility: hidden;
-    font-weight: 300;
 }
 
 .hero__screen-2 .hero__heading span:nth-child(2) {
@@ -1361,7 +1346,7 @@
 .contemporary__floating-text span {
     color: #57575733;
     text-align: center;
-    font-family: Futura;
+    font-family: "Futura", "Futura Custom", sans-serif;
     font-size: min(10rem, 10vh);
     line-height: normal
 }
